@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <head>
 <title> SRR 3 NOWA SÓL </title>
+<script>
+	var licznik = 0
+	function licz() {
+		licznik = licznik + 1
+		document.getElementById("m").innerHTML = licznik
+	}
+</script>
 </head>
 <body>
-<h1> coś </h1>
+<h1> I tutaj wpiszemy jakiś tekst </h1>
+<p> tutaj jakiś mniejszy tekst </p>
+<p id="m">0</p>
+<button onclick="licz()">i tutaj jakiś licznik</button>
 </body>
 </html>
